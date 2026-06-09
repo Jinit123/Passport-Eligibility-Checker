@@ -60,7 +60,9 @@ export default function Features() {
 
         <section
             className="
-                py-24
+                py-16
+sm:py-20
+lg:py-24
             "
         >
 
@@ -82,7 +84,9 @@ export default function Features() {
                 <h2
                     className="
                         mt-4
-                        text-5xl
+                        text-3xl
+sm:text-4xl
+lg:text-5xl
                         font-bold
                         text-slate-900
                     "
@@ -140,7 +144,8 @@ export default function Features() {
                                     rounded-3xl
                                     border
                                     border-slate-200
-                                    p-8
+                                    p-6
+sm:p-8
                                     shadow-sm
                                     hover:shadow-xl
                                     hover:-translate-y-2
@@ -173,7 +178,8 @@ export default function Features() {
                                 <h3
                                     className="
                                         mt-6
-                                        text-2xl
+                                        text-xl
+sm:text-2xl
                                         font-bold
                                         text-slate-900
                                     "
