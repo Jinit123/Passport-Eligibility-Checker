@@ -38,7 +38,7 @@ export default function Navbar() {
                         text-slate-900
                     "
                 >
-                    DocVerify
+                    Passport Eligibility Checker
                 </a>
 
                 {/* Menu */}
