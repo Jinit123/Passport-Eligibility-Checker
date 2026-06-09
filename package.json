@@ -12,6 +12,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.4.4"
+    "@astrojs/react": "^5.0.7",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource/inter": "^5.2.8",
+    "@tailwindcss/vite": "^4.3.0",
+    "@techstark/opencv-js": "^4.12.0-release.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.4.4",
+    "fast-levenshtein": "^3.0.0",
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.17.0",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.3.0",
+    "tesseract.js": "^7.0.0"
   }
 }

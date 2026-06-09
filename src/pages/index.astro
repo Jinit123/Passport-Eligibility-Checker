@@ -1,11 +1,101 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import HeroSection
+from "../components/HeroSection";
+import Navbar from "../components/Navbar";
+import Features from "../components/Features";
+import FAQ from "../components/FAQ";
+import PassportEligibilityGuide from "../components/PassportEligibilityGuide";
+import RequiredDocuments from "../components/RequiredDocuments";
+import HowItWorks from "../components/HowItWorks";
+import SecurityAndPrivacy from "../components/SecurityAndPrivacy";
+import Footer from "../components/Footer.tsx";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import App
+from "../components/App";
+
+import "../styles/global.css";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<html lang="en">
+
+<head>
+
+  <title>
+Passport Eligibility Checker | Verify Aadhaar & PAN For Passport Application
+</title>
+
+<meta
+    name="description"
+    content="Check passport eligibility by verifying Aadhaar and PAN document consistency using OCR technology. Detect name and DOB mismatches before passport application."
+/>
+
+<meta
+    name="keywords"
+    content="requirements for passport, passport documents required, passport requirements, passport application documents, passport verification tool, 	
+applications for us passport, india passport, passport seva, passport seva kendra, 	what are the documents required for passport"
+/>
+
+<meta property="og:title" content="Passport Eligibility Checker" />
+
+<meta
+    property="og:description"
+    content="Verify Aadhaar and PAN consistency before passport application."
+/>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"SoftwareApplication",
+  "name":"Passport Eligibility Checker",
+  "applicationCategory":"UtilityApplication",
+  "operatingSystem":"Web",
+  "description":"Verify Aadhaar and PAN document consistency before passport application."
+}
+</script>
+
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="https://yourdomain.com" />
+
+<meta
+    name="robots"
+    content="index,follow"
+/>
+
+</head>
+
+<body>
+
+    <Navbar/>
+
+  <div
+    class="
+      max-w-8xl
+      mx-auto
+      px-8
+      py-10
+    "
+  >
+
+    <HeroSection />
+
+    <Features/>
+
+    <HowItWorks/>
+
+    <App client:load />
+
+    <RequiredDocuments/>
+
+    <PassportEligibilityGuide/>
+
+    <FAQ client:load/>
+
+    <Footer/>
+
+
+  </div>
+
+</body>
+
+</html>
