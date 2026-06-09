@@ -42,20 +42,23 @@ applications for us passport, india passport, passport seva, passport seva kendr
     content="Verify Aadhaar and PAN consistency before passport application."
 />
 
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"SoftwareApplication",
-  "name":"Passport Eligibility Checker",
-  "applicationCategory":"UtilityApplication",
-  "operatingSystem":"Web",
-  "description":"Verify Aadhaar and PAN document consistency before passport application."
-}
-</script>
+<script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Passport Eligibility Checker",
+        "url": "https://passporteligibilitychecker.vercel.app",
+        "applicationCategory": "UtilityApplication",
+        "operatingSystem": "Web",
+        "description":
+            "Verify Aadhaar and PAN document consistency before passport application."
+    })}
+/>
 
 <meta property="og:type" content="website" />
 
-<meta property="og:url" content="https://yourdomain.com" />
+<meta property="og:url" content="https://passporteligibilitychecker.vercel.app" />
 
 <meta
     name="robots"
