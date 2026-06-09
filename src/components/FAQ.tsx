@@ -114,7 +114,9 @@ export default function FAQ() {
                 <h2
                     className="
                         mt-4
-                        text-5xl
+                        text-3xl
+sm:text-4xl
+lg:text-5xl
                         font-bold
                         text-slate-900
                     "

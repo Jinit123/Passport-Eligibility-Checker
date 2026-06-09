@@ -88,7 +88,9 @@ export default function UploadZone({
                     <h2
                         className="
                             mt-8
-                            text-4xl
+                            text-3xl
+sm:text-4xl
+lg:text-5xl
                             font-bold
                             text-slate-900
                         "
