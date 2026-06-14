@@ -7,7 +7,7 @@ import react from '@astrojs/react';
 
 export default defineConfig({
 
-  site: " https://passporteligibilitychecker.vercel.app",
+  site: "https://passporteligibilitychecker.vercel.app",
 
   vite: {
     plugins: [tailwindcss()]
